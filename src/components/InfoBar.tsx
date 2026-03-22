@@ -9,7 +9,7 @@ const InfoBar = () => {
     const updateTime = () => {
       const now = new Date();
       const denverTime = now.toLocaleTimeString("en-US", {
-        timeZone: "America/Denver",
+        timeZone: "Asia/Kolkata",
         hour: "numeric",
         minute: "2-digit",
         second: "2-digit",
@@ -50,7 +50,7 @@ const InfoBar = () => {
           <span className="text-sm md:text-base text-foreground tracking-tight">Open to freelance</span>
         </div>
         <a
-          href="mailto:me@connormurphy.design"
+          href="mailto:me@krishped.design"
           className="flex items-center gap-1.5 text-sm md:text-base text-foreground tracking-tight hover:opacity-70 transition-opacity"
         >
           <ArrowLeft className="w-3.5 h-3.5" />
@@ -61,8 +61,8 @@ const InfoBar = () => {
       {/* Location */}
       <motion.div variants={fadeUp} transition={{ duration: 0.5 }} className="space-y-1">
         <p className="text-muted-foreground text-sm md:text-base tracking-tight">Location</p>
-        <p className="text-sm md:text-base text-foreground tracking-tight">Denver, CO</p>
-        <p className="text-sm md:text-base text-foreground tracking-tight">39.7392° N, 104.9903° W</p>
+        <p className="text-sm md:text-base text-foreground tracking-tight">Goa, India</p>
+        <p className="text-sm md:text-base text-foreground tracking-tight">15.2993° N, 74.1240° E</p>
         <p className="text-sm md:text-base text-foreground tracking-tight tabular-nums">{time}</p>
       </motion.div>
 
