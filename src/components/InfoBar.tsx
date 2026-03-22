@@ -68,13 +68,17 @@ const InfoBar = () => {
 
       {/* Navigation */}
       <motion.nav variants={fadeUp} transition={{ duration: 0.5 }} className="flex flex-col items-end gap-1">
-        {["About", "Play", "Contact"].map((item) => (
+        {[
+          { label: "About", path: "/about" },
+          { label: "Play", path: "/play" },
+          { label: "Contact", path: "/contact" },
+        ].map((item) => (
           <a
-            key={item}
-            href={`/${item.toLowerCase()}`}
+            key={item.label}
+            href={item.path}
             className="text-sm md:text-base text-foreground tracking-tight hover:opacity-70 transition-opacity"
           >
-            {item}
+            {item.label}
           </a>
         ))}
       </motion.nav>
