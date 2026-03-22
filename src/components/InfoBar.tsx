@@ -9,7 +9,7 @@ const InfoBar = () => {
     const updateTime = () => {
       const now = new Date();
       const denverTime = now.toLocaleTimeString("en-US", {
-        timeZone: "America/Denver",
+        timeZone: "Asia/Kolkata",
         hour: "numeric",
         minute: "2-digit",
         second: "2-digit",
