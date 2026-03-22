@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="px-6 md:px-9 pb-8 md:pb-12">
       <div className="flex items-center justify-between text-sm text-foreground tracking-tight">
         <span>© 2026</span>
-        <span>connormurphy.design</span>
+        <span>krishped.design</span>
       </div>
       <div className="h-px bg-border my-4" />
       <div className="overflow-hidden">
