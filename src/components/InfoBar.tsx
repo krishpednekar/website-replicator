@@ -50,7 +50,7 @@ const InfoBar = () => {
           <span className="text-sm md:text-base text-foreground tracking-tight">Open to freelance</span>
         </div>
         <a
-          href="mailto:me@krishped.design"
+          href="mailto:krshpednekar@gmail.com"
           className="flex items-center gap-1.5 text-sm md:text-base text-foreground tracking-tight hover:opacity-70 transition-opacity"
         >
           <ArrowLeft className="w-3.5 h-3.5" />
