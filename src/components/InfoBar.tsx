@@ -61,8 +61,8 @@ const InfoBar = () => {
       {/* Location */}
       <motion.div variants={fadeUp} transition={{ duration: 0.5 }} className="space-y-1">
         <p className="text-muted-foreground text-sm md:text-base tracking-tight">Location</p>
-        <p className="text-sm md:text-base text-foreground tracking-tight">Denver, CO</p>
-        <p className="text-sm md:text-base text-foreground tracking-tight">39.7392° N, 104.9903° W</p>
+        <p className="text-sm md:text-base text-foreground tracking-tight">Goa, India</p>
+        <p className="text-sm md:text-base text-foreground tracking-tight">15.2993° N, 74.1240° E</p>
         <p className="text-sm md:text-base text-foreground tracking-tight tabular-nums">{time}</p>
       </motion.div>
 

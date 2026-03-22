@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="h-px bg-border my-4" />
       <div className="overflow-hidden">
         <h2 className="text-[48px] md:text-[100px] lg:text-[180px] xl:text-[200px] font-medium leading-[1.1] tracking-tight text-foreground whitespace-nowrap">
-          Connor Murphy
+          Krish Ped.
         </h2>
       </div>
     </footer>

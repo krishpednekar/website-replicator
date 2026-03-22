@@ -17,7 +17,7 @@ const HeaderInitials = () => {
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
         className="text-[80px] md:text-[120px] lg:text-[160px] font-medium leading-none tracking-tight text-foreground"
       >
-        M
+        H
       </motion.span>
     </div>
   );
