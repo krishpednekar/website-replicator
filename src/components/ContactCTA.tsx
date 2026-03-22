@@ -17,10 +17,10 @@ const ContactCTA = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.1 }}
-        href="mailto:me@connormurphy.design"
+        href="mailto:krshpednekar@gmail.com"
         className="inline-block mt-4 text-lg md:text-2xl lg:text-3xl text-foreground tracking-tight hover:opacity-70 transition-opacity"
       >
-        me@connormurphy.design
+        me@krishped.design
       </motion.a>
     </section>
   );
