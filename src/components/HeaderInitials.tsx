@@ -9,7 +9,7 @@ const HeaderInitials = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="text-[80px] md:text-[120px] lg:text-[160px] font-medium leading-none tracking-tight text-foreground"
       >
-        C
+        K
       </motion.span>
       <motion.span
         initial={{ opacity: 0, y: 20 }}
