@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import HeaderInitials from "@/components/HeaderInitials";
 import Footer from "@/components/Footer";
+import ContactForm from "@/components/ContactForm";
 
 const Contact = () => {
   return (
