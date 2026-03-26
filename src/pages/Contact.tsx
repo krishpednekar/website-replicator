@@ -40,6 +40,7 @@ const Contact = () => {
             Goa, India · Open to freelance
           </p>
         </motion.div>
+        <ContactForm />
       </section>
       <Footer />
     </div>
