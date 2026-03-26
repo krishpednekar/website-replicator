@@ -12,16 +12,28 @@ const ContactCTA = () => {
       >
         Interested in working together?
       </motion.p>
-      <motion.a
+      <motion.div
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.1 }}
-        href="mailto:krshpednekar@gmail.com"
-        className="inline-block mt-4 text-lg md:text-2xl lg:text-3xl text-foreground tracking-tight hover:opacity-70 transition-opacity"
+        className="mt-4 flex flex-col items-center gap-2"
       >
-        me@krishped.design
-      </motion.a>
+        <a
+          href="mailto:krshpednekar@gmail.com"
+          className="text-lg md:text-2xl lg:text-3xl text-foreground tracking-tight hover:opacity-70 transition-opacity"
+        >
+          me@krishped.design
+        </a>
+        <a
+          href="https://www.instagram.com/krshped?igsh=Z3JneDNhcm93bG1r&utm_source=qr"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lg md:text-2xl lg:text-3xl text-foreground tracking-tight hover:opacity-70 transition-opacity"
+        >
+          @krshped
+        </a>
+      </motion.div>
     </section>
   );
 };

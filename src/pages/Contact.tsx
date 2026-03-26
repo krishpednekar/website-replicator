@@ -27,6 +27,14 @@ const Contact = () => {
           >
             me@krishped.design
           </a>
+          <a
+            href="https://www.instagram.com/krshped?igsh=Z3JneDNhcm93bG1r&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-lg md:text-2xl lg:text-3xl text-foreground tracking-tight hover:opacity-70 transition-opacity"
+          >
+            @krshped
+          </a>
           <p className="text-muted-foreground text-base md:text-lg tracking-tight">
             Goa, India · Open to freelance
           </p>
