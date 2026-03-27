@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
-  const text = "I'm Krish, a digital designer based in Goa, India. Currently working as a freelancer, creating meaningful, visually engaging digital experiences.";
+  const text = "I'm Krish, a digital designer based in Goa, India. Currently working as a freelancer, creating meaningful, visually engaging digital experiences while building intelligent, data-driven digital products.";
 
   const words = text.split(" ");
 
